@@ -1,3 +1,7 @@
 const { humanCatDogYears } = require("../src");
 
-// Look Ma, no handlebars!!!
+describe("humanCatDogYears", () => {
+  test("returns an array with the passed number value", () => {
+    expect(humanCatDogYears(10)).toEqual([10]);
+  });
+});
