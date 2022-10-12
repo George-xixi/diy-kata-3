@@ -24,6 +24,7 @@ const humanCatDogYears = (number) => {
     yearsArray.push(number, catYears, dogYears);
     return yearsArray;
   }
+  return "input not valid";
 };
 
 module.exports = humanCatDogYears;

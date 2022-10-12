@@ -1,7 +1,6 @@
 const { humanCatDogYears } = require("../src");
 
 describe("humanCatDogYears", () => {
-
   xtest("returns an array with the passed number value", () => {
     expect(humanCatDogYears(10)).toEqual([10]);
   });
